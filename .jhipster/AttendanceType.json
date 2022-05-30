@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220530153748",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "attendance_type",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descAr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AttendanceType",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

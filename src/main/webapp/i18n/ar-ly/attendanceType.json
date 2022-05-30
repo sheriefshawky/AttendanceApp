@@ -1,0 +1,26 @@
+{
+  "attendanceApp": {
+    "attendanceType": {
+      "home": {
+        "title": "Attendance Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Attendance Type",
+        "createOrEditLabel": "Create or edit a Attendance Type",
+        "notFound": "No Attendance Types found"
+      },
+      "created": "A new Attendance Type is created with identifier {{ param }}",
+      "updated": "A Attendance Type is updated with identifier {{ param }}",
+      "deleted": "A Attendance Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Attendance Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Attendance Type"
+      },
+      "id": "ID",
+      "code": "Code",
+      "descEn": "Desc En",
+      "descAr": "Desc Ar"
+    }
+  }
+}

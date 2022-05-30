@@ -1,0 +1,65 @@
+{
+  "applications": "*",
+  "changelogDate": "20220530153747",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "attendance",
+  "fields": [
+    {
+      "fieldName": "logDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "logTimeFrom",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "logTimeTo",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "permissionHours",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "details",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Attendance",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attendanceType",
+      "otherEntityRelationshipName": "attendance",
+      "ownerSide": true,
+      "relationshipName": "attendanceType",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "attendance",
+      "ownerSide": true,
+      "relationshipName": "employee",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "attendance",
+      "ownerSide": true,
+      "relationshipName": "managerApprovedBy",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "attendance",
+      "ownerSide": true,
+      "relationshipName": "hrApprovedBy",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

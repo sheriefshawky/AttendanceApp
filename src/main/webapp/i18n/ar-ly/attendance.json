@@ -1,0 +1,32 @@
+{
+  "attendanceApp": {
+    "attendance": {
+      "home": {
+        "title": "Attendances",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Attendance",
+        "createOrEditLabel": "Create or edit a Attendance",
+        "notFound": "No Attendances found"
+      },
+      "created": "A new Attendance is created with identifier {{ param }}",
+      "updated": "A Attendance is updated with identifier {{ param }}",
+      "deleted": "A Attendance is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Attendance {{ id }}?"
+      },
+      "detail": {
+        "title": "Attendance"
+      },
+      "id": "ID",
+      "logDate": "Log Date",
+      "logTimeFrom": "Log Time From",
+      "logTimeTo": "Log Time To",
+      "permissionHours": "Permission Hours",
+      "details": "Details",
+      "attendanceType": "Attendance Type",
+      "employee": "Employee",
+      "managerApprovedBy": "Manager Approved By",
+      "hrApprovedBy": "Hr Approved By"
+    }
+  }
+}

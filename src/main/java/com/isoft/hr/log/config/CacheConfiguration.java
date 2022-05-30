@@ -81,6 +81,10 @@ public class CacheConfiguration {
             createCache(cm, com.isoft.hr.log.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, com.isoft.hr.log.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, com.isoft.hr.log.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, com.isoft.hr.log.domain.Employee.class.getName(), jcacheConfiguration);
+            createCache(cm, com.isoft.hr.log.domain.Department.class.getName(), jcacheConfiguration);
+            createCache(cm, com.isoft.hr.log.domain.Attendance.class.getName(), jcacheConfiguration);
+            createCache(cm, com.isoft.hr.log.domain.AttendanceType.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

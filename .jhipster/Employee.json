@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20220530153745",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "employee",
+  "fields": [
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mobileNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nationalId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Employee",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "employee",
+      "ownerSide": true,
+      "relationshipName": "manager",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "department",
+      "otherEntityRelationshipName": "employee",
+      "ownerSide": true,
+      "relationshipName": "department",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}
